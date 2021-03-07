@@ -206,7 +206,7 @@
           // document.body.removeChild(clone);
           var link = document.createElement('a');
           link.href = dataURL;
-          link.download = 'สมุดแบบฝึกหัด_' + name + '.png';
+          link.download = 'สมุดแบบฝึกหัด-สมุดจด_' + name + '.png';
           this.imgDataUrl = dataURL;
           document.body.appendChild(link);
           link.click();
